@@ -249,11 +249,11 @@ class BasePage:
         """
         cls.air_test = air_test
         # 连接方式一，用init_device()
-        # air_test.init_device(platform="Android",uuid="7XBRX18A16002686")
+        # cls.air_test.init_device(platform="Android",uuid="7XBRX18A16002686")
         # 连接方式二，用connect_device()
-        air_test.connect_device(device_info)
+        cls.air_test.connect_device(device_info)
         # 连接方式三，用auto_setup()
-        # air_test.auto_setup(__file__,devices=["Android://127.0.0.1:5037/7XBRX18A16002686"])
+        # cls.air_test.auto_setup(__file__,devices=["Android://127.0.0.1:5037/7XBRX18A16002686"])
         return cls.air_test
 
     @classmethod
