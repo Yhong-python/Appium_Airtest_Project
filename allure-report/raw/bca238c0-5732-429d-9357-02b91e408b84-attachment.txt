@@ -1,1 +1,0 @@
-2021-10-28 13:49:36.851 | INFO     | common_utils.utils:is_app_insntall:44 - com.door.qp.hjproject已安装
