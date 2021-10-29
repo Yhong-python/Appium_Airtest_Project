@@ -1,0 +1,3 @@
+2021-10-28 17:09:00.884 | INFO     | common_utils.utils:is_app_insntall:44 - com.door.qp.hjproject已安装
+2021-10-28 17:09:00.885 | INFO     | common_utils.appium_serve:start_appium_server:69 - run {start appium -a 127.0.0.1 -p 4723 -bp 62001 --local-timezone --log=E:\UI_Auto\log\appium_log_2021_10_28.log} command at Thu Oct 28 17:09:00 2021
+2021-10-28 17:09:02.941 | INFO     | common_utils.appium_serve:check_port:29 - port 4723 is available! 

@@ -1,0 +1,340 @@
+{
+  "uid" : "b41593a84daa8ba9",
+  "name" : "test_5",
+  "fullName" : "TestCases.test_demo#test_5",
+  "historyId" : "d4fb44c478916a2b66b13777c6878054",
+  "time" : {
+    "start" : 1635412496266,
+    "stop" : 1635412530058,
+    "duration" : 33792
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "start_appium_session",
+    "time" : {
+      "start" : 1635412476136,
+      "stop" : 1635412496263,
+      "duration" : 20127
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1635412496264,
+      "stop" : 1635412496264,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1635412476131,
+      "stop" : 1635412476131,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1635412476130,
+      "stop" : 1635412476130,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "cmdopt",
+    "time" : {
+      "start" : 1635412476131,
+      "stop" : 1635412476136,
+      "duration" : 5
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击跳过按钮",
+      "time" : {
+        "start" : 1635412496267,
+        "stop" : 1635412497769,
+        "duration" : 1502
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af6ebb1b482a8722",
+        "name" : "截图：定位元素：('id', 'com.door.qp.hjproject:id/iv_jump')",
+        "source" : "af6ebb1b482a8722.png",
+        "type" : "image/png",
+        "size" : 395230
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "点击第一个代办业务",
+      "time" : {
+        "start" : 1635412497769,
+        "stop" : 1635412500419,
+        "duration" : 2650
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70b2e75e976b26a1",
+        "name" : "截图：定位元素：('xpath', '//android.view.View[contains(@text,\"汽车担保流\")]')",
+        "source" : "70b2e75e976b26a1.png",
+        "type" : "image/png",
+        "size" : 37280
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "点击第一个订单",
+      "time" : {
+        "start" : 1635412500419,
+        "stop" : 1635412502442,
+        "duration" : 2023
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f70e41aa3c6a210",
+        "name" : "截图：定位元素：('xpath', \"//android.view.View[@text='16171831538348487']\")",
+        "source" : "2f70e41aa3c6a210.png",
+        "type" : "image/png",
+        "size" : 136821
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "点击客户信息tab页",
+      "time" : {
+        "start" : 1635412502442,
+        "stop" : 1635412504127,
+        "duration" : 1685
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "17d7bce1b927d969",
+        "name" : "截图：定位元素：('xpath', \"//android.view.View[@text='客户信息']\")",
+        "source" : "17d7bce1b927d969.png",
+        "type" : "image/png",
+        "size" : 201618
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "点击主借人信息",
+      "time" : {
+        "start" : 1635412504127,
+        "stop" : 1635412507057,
+        "duration" : 2930
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6d060fffdf15dfb5",
+        "name" : "截图：定位元素：('xpath', \"//android.widget.Button[contains(@text,'身份证')]\")",
+        "source" : "6d060fffdf15dfb5.png",
+        "type" : "image/png",
+        "size" : 50813
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "身份证正面上传,取相册第一张",
+      "time" : {
+        "start" : 1635412507057,
+        "stop" : 1635412518542,
+        "duration" : 11485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "46022fb88e1a0ee0",
+        "name" : "截图：定位元素：('classname', 'android.view.View')",
+        "source" : "46022fb88e1a0ee0.png",
+        "type" : "image/png",
+        "size" : 165712
+      }, {
+        "uid" : "e822fa636f9e37e7",
+        "name" : "截图：定位元素：('xpath', \"//android.widget.TextView[@text='打开相册']\")",
+        "source" : "e822fa636f9e37e7.png",
+        "type" : "image/png",
+        "size" : 127447
+      }, {
+        "uid" : "96e4084ac473b75",
+        "name" : "截图：定位元素：('id', 'com.door.qp.hjproject:id/check_view')",
+        "source" : "96e4084ac473b75.png",
+        "type" : "image/png",
+        "size" : 1389110
+      }, {
+        "uid" : "337ca259a2d39ada",
+        "name" : "截图：定位元素：('classname', 'android.view.View')",
+        "source" : "337ca259a2d39ada.png",
+        "type" : "image/png",
+        "size" : 237564
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4
+    }, {
+      "name" : "身份证反面上传,取相册第二张",
+      "time" : {
+        "start" : 1635412518542,
+        "stop" : 1635412530057,
+        "duration" : 11515
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "94a456e3ff9aa428",
+        "name" : "截图：定位元素：('classname', 'android.view.View')",
+        "source" : "94a456e3ff9aa428.png",
+        "type" : "image/png",
+        "size" : 220045
+      }, {
+        "uid" : "b07dc03dbf1297ab",
+        "name" : "截图：定位元素：('xpath', \"//android.widget.TextView[@text='打开相册']\")",
+        "source" : "b07dc03dbf1297ab.png",
+        "type" : "image/png",
+        "size" : 145996
+      }, {
+        "uid" : "c64b339ece40fe3b",
+        "name" : "截图：定位元素：('id', 'com.door.qp.hjproject:id/check_view')",
+        "source" : "c64b339ece40fe3b.png",
+        "type" : "image/png",
+        "size" : 1389171
+      }, {
+        "uid" : "cc46b78a041da11e",
+        "name" : "截图：定位元素：('classname', 'android.view.View')",
+        "source" : "cc46b78a041da11e.png",
+        "type" : "image/png",
+        "size" : 253892
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 4
+    } ],
+    "attachments" : [ {
+      "uid" : "c0102b1a3addb30e",
+      "name" : "stderr",
+      "source" : "c0102b1a3addb30e.txt",
+      "type" : "text/plain",
+      "size" : 450
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 14
+  },
+  "afterStages" : [ {
+    "name" : "start_appium_session::0",
+    "time" : {
+      "start" : 1635412530059,
+      "stop" : 1635412530059,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-SPR9NS1"
+  }, {
+    "name" : "thread",
+    "value" : "3112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b41593a84daa8ba9.json",
+  "parameterValues" : [ ]
+}
