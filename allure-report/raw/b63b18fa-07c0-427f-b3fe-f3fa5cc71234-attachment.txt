@@ -1,0 +1,5 @@
+[32m2021-10-29 10:40:54.503[0m | [1mINFO    [0m | [36mcommon_utils.utils[0m:[36mis_app_insntall[0m:[36m44[0m - [1mcom.door.qp.hjproject has been installed[0m
+[32m2021-10-29 10:40:54.504[0m | [1mINFO    [0m | [36mcommon_utils.appium_serve[0m:[36mstart_appium_server[0m:[36m71[0m - [1mrun {start appium -a 127.0.0.1 -p 4723 -bp 62001 --local-timezone --log=E:\UI_Auto\log\appium_log_2021_10_29.log} command at Fri Oct 29 10:40:54 2021[0m
+[32m2021-10-29 10:40:54.505[0m | [33m[1mWARNING [0m | [36mcommon_utils.appium_serve[0m:[36mcheck_port[0m:[36m36[0m - [33m[1mport 4723 already be in use ! please release it[0m
+[32m2021-10-29 10:40:54.542[0m | [1mINFO    [0m | [36mcommon_utils.appium_serve[0m:[36mrelease_port[0m:[36m55[0m - [1mport 4723 was released[0m
+[32m2021-10-29 10:40:54.543[0m | [1mINFO    [0m | [36mcommon_utils.appium_serve[0m:[36mrelease_port[0m:[36m59[0m - [1mappium serve start success,listen port at 4723[0m

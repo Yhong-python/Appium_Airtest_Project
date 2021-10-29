@@ -1,0 +1,43 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-SPR9NS1",
+    "children" : [ {
+      "name" : "21456-MainThread",
+      "children" : [ {
+        "name" : "test_5",
+        "uid" : "b4deccec81f30ff3",
+        "parentUid" : "5e24d194a7d94fc16672c602438f3204",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635474767099,
+          "stop" : 1635474809849,
+          "duration" : 42750
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5e24d194a7d94fc16672c602438f3204"
+    }, {
+      "name" : "5816-MainThread",
+      "children" : [ {
+        "name" : "test_5",
+        "uid" : "4b2313ddbc184a40",
+        "parentUid" : "0c3831956e3f20df41e2914e1b8c68a0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1635475274580,
+          "stop" : 1635475338924,
+          "duration" : 64344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0c3831956e3f20df41e2914e1b8c68a0"
+    } ],
+    "uid" : "02821833292947e433c51b3483c162a7"
+  } ]
+}
