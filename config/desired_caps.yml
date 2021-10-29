@@ -1,0 +1,16 @@
+devices1:
+  platformName: Android
+  platformVersion: !!str 10
+  unicodeKeyboard: True
+  resetKeyboard: True
+  automationName: uiautomator2
+  deviceName: 7XBRX18A16002686
+  appPackage: com.door.qp.hjproject
+  appActivity: com.qp.LaunchActivity
+  noReset: True
+  skipServerInstallation: True
+  skipDeviceInitialization: True
+
+devices2:
+  platformName: Android
+
