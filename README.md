@@ -1,0 +1,4 @@
+# Appium_Airtest_Project
+Appium+Airtest结合的自动化项目
+run_test.py执行自动化测试
+执行完成后会在同目录下生成allure报告,访问index.html即可
