@@ -7,7 +7,7 @@ devices1:
   deviceName: 7XBRX18A16002686
   appPackage: com.door.qp.hjproject
   appActivity: com.qp.LaunchActivity
-  noReset: True
+  noReset: False
   skipServerInstallation: True
   skipDeviceInitialization: True
 

@@ -11,7 +11,7 @@ import json
 import time
 from functools import wraps
 
-from common_utils.log import logger
+from common.log import logger
 
 
 def wrapper_log(func):

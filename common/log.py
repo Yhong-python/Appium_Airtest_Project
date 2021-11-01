@@ -8,9 +8,8 @@
 """
 import os
 import time
-
+import sys
 from loguru import logger
-
 project_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 log_path = os.path.join(project_path, 'log')
 t = time.strftime("%Y-%m-%d")
@@ -18,17 +17,16 @@ t = time.strftime("%Y-%m-%d")
 
 # class PropogateHandler(logging.Handler):
 #     def emit(self, record):
-# logging.
-# logger.info(record.name)
-# logging.getLogger(record.name).handle(record)
+#         logger.info(record.name)
+#         logging.getLogger(record.name).handle(record)
 
 
 class Loggings:
     """日志定义"""
     __instance = None
+
     logger.add(f"{log_path}/ui_log_{t}.log", rotation="100MB", encoding="utf-8", enqueue=True,
                retention="10 days", backtrace=False)
-
     # 让日志在allure报告中的log中展示，否则展示在stderr中
     # logger.add(PropogateHandler())
 

@@ -9,9 +9,10 @@
 import pytest
 from appium import webdriver
 from pageObject.basepage import BasePage
-from common_utils.utils import AdbUtils, FileUtils
+from common.utils.cmd_utils import AppiumServe
+from common.utils.adb_utils import AdbUtils
+from common.utils.file_utils import FileUtils
 from config.root_config import DEVICE_INFO_PATH
-from common_utils.appium_serve import AppiumServe
 
 # @pytest.fixture(scope='session')
 @pytest.fixture(scope='session',autouse=True)

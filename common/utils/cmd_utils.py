@@ -11,7 +11,7 @@ import socket
 import subprocess
 import time
 
-from common_utils.log import logger
+from common.log import logger
 from config.root_config import APPIUM_LOG_PATH
 
 
@@ -57,7 +57,6 @@ class AppiumServe(object):
             # print('port %s is available !' % port)
             logger.info('port %s is not used !' % port)
         logger.info('appium serve start success,listen port at %s' % port)
-
 
     @staticmethod
     def start_appium_server(ip='127.0.0.1', port=4723, bport=62001):

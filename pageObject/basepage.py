@@ -18,7 +18,7 @@ from appium.webdriver.webdriver import WebDriver
 from selenium.common.exceptions import NoSuchElementException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 
-from common_utils.log import logger
+from common.log import logger
 
 
 class BasePage:

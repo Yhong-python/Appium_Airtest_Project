@@ -6,13 +6,10 @@
 @time: 2021/10/25 14:35
 @desc:
 """
-import json
 import os
 import time
 
-from ruamel import yaml
-
-from common_utils.log import logger
+from common.log import logger
 
 
 class AdbUtils(object):
@@ -75,46 +72,8 @@ class AdbUtils(object):
         return result
 
 
-class FileUtils(object):
-    @staticmethod
-    def read_yaml(file_path):
-        if os.path.exists(file_path):
-            with open(file_path, 'r') as f:
-                content = f.read().strip()
-            content = yaml.load(stream=content, Loader=yaml.SafeLoader)
-            return content
-        else:
-            raise Exception(f"{file_path}文件不存在")
-
-    @staticmethod
-    def update_yaml(file_path, content):
-        if os.path.exists(file_path):
-            with open(file_path, "w", encoding="utf-8") as f:
-                yaml.dump(content, f, Dumper=yaml.RoundTripDumper, allow_unicode=True)
-        else:
-            raise Exception(f"{file_path}文件不存在")
-
-    @staticmethod
-    def read_json(file_path):
-        if os.path.exists(file_path):
-            with open(file_path, 'r', encoding='utf-8') as f:
-                content = json.load(f)
-            return content
-        else:
-            raise FileNotFoundError(f"{file_path}文件不存在")
-
-    @staticmethod
-    def update_json(file_path, content):
-        if os.path.exists(file_path):
-            with open(file_path, "w", encoding="utf-8") as f:
-                json.dump(content, f, ensure_ascii=False)
-        else:
-            raise FileNotFoundError(f"{file_path}文件不存在")
-
-
 if __name__ == '__main__':
-    # print(AdbUtils.adb_get_phone_size())
-    # print(AdbUtils.adb_get_phone_version())
-    # print(AdbUtils.adb_get_appPackageName_and_appActivity())
-    # print(FileUtils.read_yaml("E:\\UI_Auto\\config\\desired_caps.yml"))
+    print(AdbUtils.adb_get_phone_size())
+    print(AdbUtils.adb_get_phone_version())
+    print(AdbUtils.adb_get_app_packagename_and_activity())
     pass
