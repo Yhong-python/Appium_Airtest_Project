@@ -20,4 +20,24 @@ if __name__ == '__main__':
     # os.system("allure open -h 127.0.0.1 -p 8088 ./allure-report/html")
 
     # pytest.main(['-m','test_1.py','-s'])
-    # '--log-format=%(asctime)s %(levelname)s %(message)s', '--log--date-fromat=%Y-%m-%d %H:%M:%S',
+
+
+    #以下运行方式为jenkins中配置参数化构建时，取里面的参数进行运行
+    # import sys
+    # import pytest
+    # jenkins_params=''
+    # try:
+    #     jenkins_params=sys.argv[1]
+    # except IndexError:
+    #     print("当前没有选中任何测试选项，执行所有测试")
+    # except:
+    #     raise
+    # marks=''
+    # if "ALL" not in jenkins_params and jenkins_params!='':  #执行部分的
+    #     marks_list=jenkins_params.split(',')
+    #     marks=' or '.join(marks_list)
+    #     run_cmd=['-v',f'-m={marks}']
+    # else:
+    #     run_cmd=['-v']
+    # print(f"当前的执行参数为{run_cmd}")
+    # pytest.main(run_cmd)
